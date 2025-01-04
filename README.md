@@ -58,7 +58,7 @@ Source repository: <https://github.com/Guli-Joy/Guli-Joy>
     <!-- https://github.com/badges/shields --> 
     <a href="https://github.com/Guli-Joy"><img src="https://img.shields.io/badge/GitHub-Guli-blue?logo=github" alt="GitHub" title="GitHub" /></a>
     <a href="https://space.bilibili.com/1983191055"><img src="https://img.shields.io/badge/哔哩哔哩-故离-pink?logo=bilibili" alt="哔哩哔哩" title="哔哩哔哩" /></a>
-    <a href="https://wakatime.com/@Guli-Joy"><img src="https://wakatime.com/badge/user/1548727c-0f8c-4e37-bcc8-a4966cb8a535.svg" alt="Wakatime" title="Wakatime" /></a>
+    <a href="https://wakatime.com/@1548727c-0f8c-4e37-bcc8-a4966cb8a535"><img src="https://wakatime.com/badge/user/1548727c-0f8c-4e37-bcc8-a4966cb8a535.svg" alt="Wakatime" title="Wakatime" /></a>
     <!-- https://github.com/antonkomarev/github-profile-views-counter -->
     <a href="https://github.com/Guli-Joy"><img src="https://komarev.com/ghpvc/?username=Guli-Joy&label=Profile+Views" alt="Profile Views" title="Profile Views" /></a>
 </p>
