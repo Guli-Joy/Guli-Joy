@@ -57,8 +57,7 @@ Source repository: <https://github.com/Guli-Joy/Guli-Joy>
 <p align="center">
     <!-- https://github.com/badges/shields --> 
     <a href="https://github.com/Guli-Joy"><img src="https://img.shields.io/badge/GitHub-Guli-Joy-blue?logo=github" alt="GitHub" title="GitHub" /></a>
-    <a href="https://gitee.com/Guli-Joy"><img src="https://img.shields.io/badge/Gitee-Guli-Joy-blue?logo=gitee" alt="Gitee" title="Gitee" /></a>
-    <a href="https://space.bilibili.com/498105668"><img src="https://img.shields.io/badge/哔哩哔哩-我就是小康-pink?logo=bilibili" alt="哔哩哔哩" title="哔哩哔哩" /></a>
+    <a href="https://space.bilibili.com/1983191055"><img src="https://img.shields.io/badge/哔哩哔哩-故离-pink?logo=bilibili" alt="哔哩哔哩" title="哔哩哔哩" /></a>
     <a href="https://wakatime.com/@Guli-Joy"><img src="https://wakatime.com/badge/user/67677d2a-fdc6-4c21-a964-b5477332bc69.svg" alt="Wakatime" title="Wakatime" /></a>
     <!-- https://github.com/antonkomarev/github-profile-views-counter -->
     <a href="https://github.com/Guli-Joy"><img src="https://komarev.com/ghpvc/?username=Guli-Joy&label=Profile+Views" alt="Profile Views" title="Profile Views" /></a>
