@@ -1,0 +1,26 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.45" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <radialGradient id="footerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(986 34) rotate(154.639) scale(230.774 126.553)">
+      <stop stop-color="#EC4899" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="footerGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="120" rx="24" fill="url(#footerBg)"/>
+  <rect width="1200" height="120" rx="24" fill="url(#footerGrid)"/>
+  <ellipse cx="1010" cy="28" rx="220" ry="92" fill="url(#footerGlow)"/>
+
+  <text x="70" y="52" fill="#FFFFFF" font-size="26" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">感谢来访</text>
+  <text x="70" y="82" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">为 Guli-Joy 构建的本地视觉与自动更新主页。</text>
+
+  <rect x="932" y="36" width="194" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <text x="1029" y="66" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">本地 SVG 主页</text>
+</svg>

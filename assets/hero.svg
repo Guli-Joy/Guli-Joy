@@ -1,0 +1,61 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060816"/>
+      <stop offset="0.48" stop-color="#181B47"/>
+      <stop offset="0.76" stop-color="#4C1D95"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(154 70) rotate(45) scale(210 160)">
+      <stop stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 256) rotate(-123) scale(290 180)">
+      <stop stop-color="#F472B6" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="824" y1="52" x2="1120" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="chipAccent" x1="0" y1="0" x2="138" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#FFFFFF" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+
+  <ellipse cx="154" cy="70" rx="188" ry="136" fill="url(#glowLeft)"/>
+  <ellipse cx="1010" cy="256" rx="280" ry="170" fill="url(#glowRight)"/>
+
+  <rect x="60" y="44" width="152" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  <text x="136" y="66" text-anchor="middle" fill="#C4B5FD" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">个人主页</text>
+
+  <text x="60" y="132" fill="#FFFFFF" font-size="68" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Guli-Joy</text>
+  <text x="62" y="170" fill="#DDD6FE" font-size="23" font-family="Inter, Segoe UI, Arial, sans-serif">本地视觉驱动的 GitHub 主页</text>
+  <text x="62" y="210" fill="#CBD5E1" font-size="17" font-family="Inter, Segoe UI, Arial, sans-serif">更干净的布局、更低的组件风险，</text>
+  <text x="62" y="236" fill="#CBD5E1" font-size="17" font-family="Inter, Segoe UI, Arial, sans-serif">以及更利落的首页观感。</text>
+
+  <rect x="62" y="264" width="138" height="38" rx="19" fill="url(#chipAccent)"/>
+  <rect x="212" y="264" width="138" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="362" y="264" width="138" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="131" y="288" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">稳定</text>
+  <text x="281" y="288" text-anchor="middle" fill="#E9D5FF" font-size="15" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">简洁</text>
+  <text x="431" y="288" text-anchor="middle" fill="#E9D5FF" font-size="15" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">聚焦</text>
+
+  <rect x="772" y="58" width="348" height="204" rx="30" fill="#FFFFFF" fill-opacity="0.06" stroke="url(#stroke)"/>
+  <circle cx="946" cy="156" r="74" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  <circle cx="946" cy="156" r="48" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  <circle cx="946" cy="156" r="10" fill="#22D3EE"/>
+  <rect x="834" y="88" width="224" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.10"/>
+  <rect x="834" y="214" width="134" height="10" rx="5" fill="#22D3EE"/>
+  <rect x="976" y="214" width="96" height="10" rx="5" fill="#8B5CF6"/>
+  <text x="834" y="244" fill="#CBD5E1" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">本地 SVG 配合自动更新的状态、统计与动态面板。</text>
+  <text x="834" y="262" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">尽量减少失效外部组件依赖。</text>
+  </svg>
+

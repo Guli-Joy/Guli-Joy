@@ -1,0 +1,42 @@
+name: 更新主页状态与动态 SVG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update-activity-svg.yml
+      - scripts/generate_activity_svg.py
+      - README.md
+
+jobs:
+  update-activity-svg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: 生成主页状态与动态 SVG
+        run: python scripts/generate_activity_svg.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Guli-Joy
+
+      - name: 提交更新后的主页状态与动态 SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg assets/status.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: 更新主页状态与最近动态面板"
+          git push

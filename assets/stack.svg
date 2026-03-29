@@ -1,0 +1,41 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08101D"/>
+      <stop offset="0.55" stop-color="#101828"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="78" y1="72" x2="1120" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0.32"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" stroke="#FFFFFF" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#grid)"/>
+
+  <text x="60" y="56" fill="#A78BFA" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="2">技术矩阵</text>
+  <text x="60" y="92" fill="#FFFFFF" font-size="31" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">当前技术栈与关注方向</text>
+  <text x="60" y="120" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">按分组呈现，避免冗长的外部图标条。</text>
+
+  <rect x="52" y="150" width="340" height="108" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
+  <rect x="430" y="150" width="340" height="108" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
+  <rect x="808" y="150" width="340" height="108" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
+
+  <text x="80" y="184" fill="#67E8F9" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">语言</text>
+  <text x="80" y="216" fill="#FFFFFF" font-size="17" font-family="Inter, Segoe UI, Arial, sans-serif">Python · C · C++ · C# · Java</text>
+  <text x="80" y="240" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">通用编程与持续学习。</text>
+
+  <text x="458" y="184" fill="#A78BFA" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">前端</text>
+  <text x="458" y="216" fill="#FFFFFF" font-size="17" font-family="Inter, Segoe UI, Arial, sans-serif">HTML · CSS · JavaScript · TypeScript</text>
+  <text x="458" y="240" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">前端基础与界面相关实践。</text>
+
+  <text x="836" y="184" fill="#F472B6" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">文档 / 表达</text>
+  <text x="836" y="212" fill="#FFFFFF" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">Markdown · LaTeX · Mermaid</text>
+  <text x="836" y="234" fill="#FFFFFF" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">Regex · MATLAB</text>
+  <text x="836" y="256" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">文档表达与结构化思考。</text>
+</svg>
