@@ -30,8 +30,14 @@
   <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
 
-  <ellipse cx="154" cy="70" rx="188" ry="136" fill="url(#glowLeft)"/>
-  <ellipse cx="1010" cy="256" rx="280" ry="170" fill="url(#glowRight)"/>
+  <ellipse cx="154" cy="70" rx="188" ry="136" fill="url(#glowLeft)">
+    <animate attributeName="opacity" values="0.78;1;0.78" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 14 8; 0 0" dur="22s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1010" cy="256" rx="280" ry="170" fill="url(#glowRight)">
+    <animate attributeName="opacity" values="0.70;0.96;0.70" dur="13.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -16 -10; 0 0" dur="24s" repeatCount="indefinite"/>
+  </ellipse>
 
   <rect x="60" y="44" width="152" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.10"/>
   <text x="136" y="66" text-anchor="middle" fill="#C4B5FD" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">个人主页</text>
@@ -51,7 +57,14 @@
   <rect x="772" y="58" width="348" height="204" rx="30" fill="#FFFFFF" fill-opacity="0.06" stroke="url(#stroke)"/>
   <circle cx="946" cy="156" r="74" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.10"/>
   <circle cx="946" cy="156" r="48" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.10"/>
-  <circle cx="946" cy="156" r="10" fill="#22D3EE"/>
+  <circle cx="946" cy="156" r="18" fill="#22D3EE" fill-opacity="0.06" stroke="#67E8F9" stroke-opacity="0.36">
+    <animate attributeName="r" values="18;30;18" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.55;0" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="946" cy="156" r="10" fill="#22D3EE">
+    <animate attributeName="r" values="10;12;10" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.75;1" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
   <rect x="834" y="88" width="224" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.10"/>
   <rect x="834" y="214" width="134" height="10" rx="5" fill="#22D3EE"/>
   <rect x="976" y="214" width="96" height="10" rx="5" fill="#8B5CF6"/>

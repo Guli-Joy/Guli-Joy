@@ -29,8 +29,21 @@
 
   <rect width="1200" height="570" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="570" rx="28" fill="url(#grid)"/>
-  <ellipse cx="120" cy="58" rx="174" ry="130" fill="url(#glowA)"/>
-  <ellipse cx="1060" cy="518" rx="210" ry="138" fill="url(#glowB)"/>
+  <ellipse cx="120" cy="58" rx="174" ry="130" fill="url(#glowA)">
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="11s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 12 8; 0 0" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1060" cy="518" rx="210" ry="138" fill="url(#glowB)">
+    <animate attributeName="opacity" values="0.70;0.94;0.70" dur="12.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -12 -10; 0 0" dur="22s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="1122" cy="74" r="18" fill="#22D3EE" fill-opacity="0.05" stroke="#67E8F9" stroke-opacity="0.26">
+    <animate attributeName="r" values="18;26;18" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.48;0" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1122" cy="74" r="6" fill="#67E8F9">
+    <animate attributeName="opacity" values="1;0.64;1" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
 
   <text x="62" y="54" fill="#C4B5FD" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="2">主页状态</text>
   <text x="62" y="92" fill="url(#title)" font-size="32" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">主页状态与统计摘要</text>

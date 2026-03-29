@@ -387,8 +387,21 @@ def render_status_svg(
 
   <rect width="1200" height="570" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="570" rx="28" fill="url(#grid)"/>
-  <ellipse cx="120" cy="58" rx="174" ry="130" fill="url(#glowA)"/>
-  <ellipse cx="1060" cy="518" rx="210" ry="138" fill="url(#glowB)"/>
+  <ellipse cx="120" cy="58" rx="174" ry="130" fill="url(#glowA)">
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="11s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 12 8; 0 0" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1060" cy="518" rx="210" ry="138" fill="url(#glowB)">
+    <animate attributeName="opacity" values="0.70;0.94;0.70" dur="12.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -12 -10; 0 0" dur="22s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="1122" cy="74" r="18" fill="#22D3EE" fill-opacity="0.05" stroke="#67E8F9" stroke-opacity="0.26">
+    <animate attributeName="r" values="18;26;18" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.48;0" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1122" cy="74" r="6" fill="#67E8F9">
+    <animate attributeName="opacity" values="1;0.64;1" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
 
   <text x="62" y="54" fill="#C4B5FD" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="2">主页状态</text>
   <text x="62" y="92" fill="url(#title)" font-size="32" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">主页状态与统计摘要</text>
@@ -423,9 +436,15 @@ def render_svg(rows: list[tuple[str, str, str]], footer_note: str) -> str:
     for index, (label, summary, date_text) in enumerate(rows):
         y = start_y + index * row_height
         accent_fill, accent_text = accent_colors[index % len(accent_colors)]
+        row_delay = f"{index * 0.8:.1f}s"
+        pill_delay = f"{index * 0.4:.1f}s"
         row_fragments.append(
-            f'''  <rect x="72" y="{y}" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05"/>
-  <rect x="84" y="{y + 6}" width="96" height="16" rx="8" fill="{accent_fill}" fill-opacity="0.20"/>
+            f'''  <rect x="72" y="{y}" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
+    <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="{row_delay}" repeatCount="indefinite"/>
+  </rect>
+  <rect x="84" y="{y + 6}" width="96" height="16" rx="8" fill="{accent_fill}" fill-opacity="0.20">
+    <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="{pill_delay}" repeatCount="indefinite"/>
+  </rect>
   <text x="132" y="{y + 18}" text-anchor="middle" fill="{accent_text}" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">{escape(label)}</text>
   <text x="198" y="{y + 18}" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">{escape(summary)}</text>
   <text x="1104" y="{y + 18}" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">{escape(date_text)}</text>'''
@@ -445,6 +464,14 @@ def render_svg(rows: list[tuple[str, str, str]], footer_note: str) -> str:
       <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.24"/>
       <stop offset="1" stop-color="#F472B6" stop-opacity="0.34"/>
     </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1094 66) rotate(145) scale(220 130)">
+      <stop stop-color="#22D3EE" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(176 {canvas_height - 38}) rotate(16) scale(240 140)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
       <path d="M 34 0 L 0 0 0 34" stroke="#FFFFFF" stroke-opacity="0.05"/>
     </pattern>
@@ -452,6 +479,21 @@ def render_svg(rows: list[tuple[str, str, str]], footer_note: str) -> str:
 
   <rect width="1200" height="{canvas_height}" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="{canvas_height}" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1094" cy="66" rx="200" ry="118" fill="url(#glowA)">
+    <animate attributeName="opacity" values="0.68;0.94;0.68" dur="10.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -10 8; 0 0" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="176" cy="{canvas_height - 38}" rx="214" ry="118" fill="url(#glowB)">
+    <animate attributeName="opacity" values="0.62;0.88;0.62" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 10 -6; 0 0" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="1114" cy="74" r="16" fill="#22D3EE" fill-opacity="0.05" stroke="#67E8F9" stroke-opacity="0.24">
+    <animate attributeName="r" values="16;24;16" dur="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.42;0" dur="4.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1114" cy="74" r="5" fill="#67E8F9">
+    <animate attributeName="opacity" values="1;0.62;1" dur="4.6s" repeatCount="indefinite"/>
+  </circle>
 
   <text x="60" y="56" fill="#A78BFA" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="2">最近动态</text>
   <text x="60" y="92" fill="#FFFFFF" font-size="32" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">最新 GitHub 公开活动</text>

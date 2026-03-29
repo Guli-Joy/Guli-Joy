@@ -16,11 +16,16 @@
 
   <rect width="1200" height="120" rx="24" fill="url(#footerBg)"/>
   <rect width="1200" height="120" rx="24" fill="url(#footerGrid)"/>
-  <ellipse cx="1010" cy="28" rx="220" ry="92" fill="url(#footerGlow)"/>
+  <ellipse cx="1010" cy="28" rx="220" ry="92" fill="url(#footerGlow)">
+    <animate attributeName="opacity" values="0.74;1;0.74" dur="11.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -10 4; 0 0" dur="19s" repeatCount="indefinite"/>
+  </ellipse>
 
   <text x="70" y="52" fill="#FFFFFF" font-size="26" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">感谢来访</text>
   <text x="70" y="82" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">为 Guli-Joy 构建的本地视觉与自动更新主页。</text>
 
-  <rect x="932" y="36" width="194" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <rect x="932" y="36" width="194" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.16">
+    <animate attributeName="fill-opacity" values="0.10;0.16;0.10" dur="6.8s" repeatCount="indefinite"/>
+  </rect>
   <text x="1029" y="66" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">本地 SVG 主页</text>
 </svg>
