@@ -10,7 +10,7 @@
       <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.26"/>
       <stop offset="1" stop-color="#EC4899" stop-opacity="0.36"/>
     </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="title" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#67E8F9"/>
       <stop offset="1" stop-color="#C084FC"/>
     </linearGradient>
@@ -47,57 +47,46 @@
 
   <text x="62" y="54" fill="#C4B5FD" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="2">主页状态</text>
   <text x="62" y="92" fill="url(#title)" font-size="32" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">主页状态与统计摘要</text>
-  <text x="62" y="122" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">首次工作流运行后，这里会自动填充真实 GitHub 状态与统计摘要。</text>
+  <text x="62" y="122" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">自动同步 GitHub 公开资料、统计摘要与精选仓库信息。</text>
 
   <rect x="52" y="146" width="340" height="92" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-  <rect x="430" y="146" width="340" height="92" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-  <rect x="808" y="146" width="340" height="92" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-
-  <rect x="52" y="254" width="340" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-  <rect x="430" y="254" width="340" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-  <rect x="808" y="254" width="340" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-
   <text x="84" y="182" fill="#67E8F9" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">粉丝</text>
-  <text x="84" y="224" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">--</text>
-
+  <text x="84" y="224" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">0</text>
+  <rect x="430" y="146" width="340" height="92" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="462" y="182" fill="#C4B5FD" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">关注中</text>
-  <text x="462" y="224" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">--</text>
-
+  <text x="462" y="224" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">1</text>
+  <rect x="808" y="146" width="340" height="92" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="840" y="182" fill="#F9A8D4" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">公开仓库</text>
-  <text x="840" y="224" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">--</text>
-
+  <text x="840" y="224" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">5</text>
+  <rect x="52" y="254" width="340" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="84" y="288" fill="#67E8F9" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">总 Star</text>
-  <text x="84" y="324" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">--</text>
+  <text x="84" y="324" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">7</text>
   <text x="84" y="348" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">仅统计非 Fork 公开仓库。</text>
-
+  <rect x="430" y="254" width="340" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="462" y="288" fill="#C4B5FD" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">最近活跃仓库</text>
-  <text x="462" y="324" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">等待同步</text>
-  <text x="462" y="348" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">推送：待刷新 · 语言：待更新</text>
-
+  <text x="462" y="324" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Guli-Joy</text>
+  <text x="462" y="348" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">推送：2026-03-29 · 语言：Python</text>
+  <rect x="808" y="254" width="340" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="840" y="288" fill="#F9A8D4" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">最近更新时间</text>
-  <text x="840" y="324" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">待同步</text>
-  <text x="840" y="348" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">仓库：等待同步</text>
+  <text x="840" y="324" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">2026-03-29</text>
+  <text x="840" y="348" fill="#94A3B8" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">仓库：Guli-Joy</text>
 
   <text x="62" y="390" fill="#F472B6" font-size="13" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.8">精选仓库</text>
-
   <rect x="52" y="406" width="340" height="122" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-  <rect x="430" y="406" width="340" height="122" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-  <rect x="808" y="406" width="340" height="122" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-
   <text x="84" y="440" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">精选 01</text>
-  <text x="84" y="474" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">等待同步</text>
-  <text x="84" y="496" fill="#CBD5E1" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">语言：待更新</text>
-  <text x="84" y="516" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">星标：-- · 更新：待刷新</text>
-
+  <text x="84" y="474" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">ccproxy_kami</text>
+  <text x="84" y="496" fill="#CBD5E1" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">语言：PHP</text>
+  <text x="84" y="516" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">星标：7 · 更新：2026-03-12</text>
+  <rect x="430" y="406" width="340" height="122" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="462" y="440" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">精选 02</text>
-  <text x="462" y="474" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">等待同步</text>
-  <text x="462" y="496" fill="#CBD5E1" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">语言：待更新</text>
-  <text x="462" y="516" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">星标：-- · 更新：待刷新</text>
-
+  <text x="462" y="474" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Guli-Joy</text>
+  <text x="462" y="496" fill="#CBD5E1" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">语言：Python</text>
+  <text x="462" y="516" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">星标：0 · 更新：2026-03-29</text>
+  <rect x="808" y="406" width="340" height="122" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <text x="840" y="440" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">精选 03</text>
-  <text x="840" y="474" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">等待同步</text>
-  <text x="840" y="496" fill="#CBD5E1" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">语言：待更新</text>
-  <text x="840" y="516" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">星标：-- · 更新：待刷新</text>
+  <text x="840" y="474" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">cloudflare_vpn</text>
+  <text x="840" y="496" fill="#CBD5E1" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">语言：未标注</text>
+  <text x="840" y="516" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">星标：0 · 更新：2026-02-20</text>
 
-  <text x="62" y="548" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">稳定兜底：工作流运行后将自动替换为真实主页状态与统计摘要。</text>
+  <text x="62" y="548" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">主页状态、统计摘要与精选仓库基于公开资料自动同步。</text>
 </svg>

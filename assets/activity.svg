@@ -1,11 +1,11 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07101D"/>
       <stop offset="0.52" stop-color="#111827"/>
       <stop offset="1" stop-color="#172554"/>
     </linearGradient>
-    <linearGradient id="stroke" x1="92" y1="76" x2="1112" y2="310" gradientUnits="userSpaceOnUse">
+    <linearGradient id="stroke" x1="92" y1="76" x2="1112" y2="336" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22D3EE" stop-opacity="0.34"/>
       <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.24"/>
       <stop offset="1" stop-color="#F472B6" stop-opacity="0.34"/>
@@ -14,7 +14,7 @@
       <stop stop-color="#22D3EE" stop-opacity="0.26"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(176 322) rotate(16) scale(240 140)">
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(176 342) rotate(16) scale(240 140)">
       <stop stop-color="#8B5CF6" stop-opacity="0.24"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
@@ -23,13 +23,13 @@
     </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#grid)"/>
   <ellipse cx="1094" cy="66" rx="200" ry="118" fill="url(#glowA)">
     <animate attributeName="opacity" values="0.68;0.94;0.68" dur="10.5s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 0; -10 8; 0 0" dur="18s" repeatCount="indefinite"/>
   </ellipse>
-  <ellipse cx="176" cy="322" rx="214" ry="118" fill="url(#glowB)">
+  <ellipse cx="176" cy="342" rx="214" ry="118" fill="url(#glowB)">
     <animate attributeName="opacity" values="0.62;0.88;0.62" dur="12s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 0; 10 -6; 0 0" dur="20s" repeatCount="indefinite"/>
   </ellipse>
@@ -42,40 +42,46 @@
   </circle>
 
   <text x="60" y="56" fill="#A78BFA" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="2">最近动态</text>
-  <text x="60" y="92" fill="#FFFFFF" font-size="32" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">GitHub 公开动态，本地渲染</text>
-  <text x="60" y="120" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">首次工作流运行后，这个面板会自动刷新。</text>
+  <text x="60" y="92" fill="#FFFFFF" font-size="32" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">最新 GitHub 公开活动</text>
+  <text x="60" y="120" fill="#CBD5E1" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif">自动渲染为本地 SVG，让 README 更稳定也更清爽。</text>
 
-  <rect x="52" y="148" width="1096" height="160" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
-
+  <rect x="52" y="148" width="1096" height="184" rx="24" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#stroke)"/>
   <rect x="72" y="164" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
     <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" repeatCount="indefinite"/>
   </rect>
   <rect x="84" y="170" width="96" height="16" rx="8" fill="#22D3EE" fill-opacity="0.20">
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" repeatCount="indefinite"/>
   </rect>
-  <text x="132" y="182" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="0.8">等待中</text>
-  <text x="198" y="182" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">首次自动刷新后，这里会显示最近 GitHub 动态。</text>
-  <text x="1104" y="182" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">待刷新</text>
-
+  <text x="132" y="182" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">推送</text>
+  <text x="198" y="182" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">向 Guli-Joy/Guli-Joy 推送了 0 次提交</text>
+  <text x="1104" y="182" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-03-29</text>
   <rect x="72" y="202" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
     <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="0.8s" repeatCount="indefinite"/>
   </rect>
   <rect x="84" y="208" width="96" height="16" rx="8" fill="#8B5CF6" fill-opacity="0.20">
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="0.4s" repeatCount="indefinite"/>
   </rect>
-  <text x="132" y="220" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="0.8">数据源</text>
-  <text x="198" y="220" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">使用 GitHub 官方公开事件接口。</text>
-  <text x="1104" y="220" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">官方</text>
-
+  <text x="132" y="220" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
+  <text x="198" y="220" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 stackryze/FreeDomains</text>
+  <text x="1104" y="220" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-03-25</text>
   <rect x="72" y="240" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
     <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="1.6s" repeatCount="indefinite"/>
   </rect>
   <rect x="84" y="246" width="96" height="16" rx="8" fill="#F472B6" fill-opacity="0.20">
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="0.8s" repeatCount="indefinite"/>
   </rect>
-  <text x="132" y="258" text-anchor="middle" fill="#F9A8D4" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="0.8">输出</text>
-  <text x="198" y="258" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">工作流会把本地 SVG 写回当前仓库。</text>
-  <text x="1104" y="258" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">本地SVG</text>
+  <text x="132" y="258" text-anchor="middle" fill="#F9A8D4" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
+  <text x="198" y="258" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 DigitalPlatDev/FreeDomain</text>
+  <text x="1104" y="258" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-03-25</text>
+  <rect x="72" y="278" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
+    <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="84" y="284" width="96" height="16" rx="8" fill="#38BDF8" fill-opacity="0.20">
+    <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="132" y="296" text-anchor="middle" fill="#BAE6FD" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
+  <text x="198" y="296" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 tibbar213/team-manage</text>
+  <text x="1104" y="296" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-03-24</text>
 
-  <text x="60" y="336" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">稳定兜底：首次抓取前，README 仍可正常渲染。</text>
+  <text x="60" y="356" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">通过 GitHub Actions 从官方公开事件接口自动更新。</text>
 </svg>
