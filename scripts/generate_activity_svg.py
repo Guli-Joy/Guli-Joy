@@ -157,10 +157,13 @@ def summarize_event(event: dict[str, Any]) -> tuple[str, str, str]:
 
     if event_type == "PushEvent":
         size = payload.get("size")
-        if not isinstance(size, int):
-            commits = payload.get("commits")
-            size = len(commits) if isinstance(commits, list) else 0
-        return "推送", f"向 {repo_name} 推送了 {size} 次提交", created_at
+        commits = payload.get("commits")
+        commit_count = size if isinstance(size, int) and size > 0 else 0
+        if commit_count <= 0 and isinstance(commits, list):
+            commit_count = len(commits)
+        if commit_count > 0:
+            return "推送", f"向 {repo_name} 推送了 {commit_count} 次提交", created_at
+        return "推送", f"向 {repo_name} 推送了代码更新", created_at
 
     if event_type == "PullRequestEvent":
         action = translate_action(str(payload.get("action", "updated")))

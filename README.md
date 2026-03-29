@@ -31,15 +31,17 @@ Source repository: <https://github.com/Guli-Joy/Guli-Joy>
 </p>
 
 <p align="center">
-    <strong>本地视觉、自动更新的状态面板与动态面板，以及更干净的 GitHub 第一印象。</strong>
+    <sub>本地 SVG 驱动 · 自动更新状态与动态 · 更克制的 GitHub 首页</sub>
 </p>
 
 <p align="center">
-    <a href="https://github.com/Guli-Joy"><strong>GitHub</strong></a>
-    &nbsp;·&nbsp;
-    <a href="https://space.bilibili.com/1983191055"><strong>Bilibili</strong></a>
-    &nbsp;·&nbsp;
-    <a href="https://wakatime.com/@1548727c-0f8c-4e37-bcc8-a4966cb8a535"><strong>WakaTime</strong></a>
+    <sub>
+        <a href="https://github.com/Guli-Joy">GitHub</a>
+        &nbsp;·&nbsp;
+        <a href="https://space.bilibili.com/1983191055">Bilibili</a>
+        &nbsp;·&nbsp;
+        <a href="https://wakatime.com/@1548727c-0f8c-4e37-bcc8-a4966cb8a535">WakaTime</a>
+    </sub>
 </p>
 
 <p align="center">

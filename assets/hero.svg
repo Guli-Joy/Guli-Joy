@@ -68,7 +68,4 @@
   <rect x="834" y="88" width="224" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.10"/>
   <rect x="834" y="214" width="134" height="10" rx="5" fill="#22D3EE"/>
   <rect x="976" y="214" width="96" height="10" rx="5" fill="#8B5CF6"/>
-  <text x="834" y="244" fill="#CBD5E1" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">本地 SVG 配合自动更新的状态、统计与动态面板。</text>
-  <text x="834" y="262" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">尽量减少失效外部组件依赖。</text>
   </svg>
-
