@@ -52,9 +52,9 @@
   <rect x="84" y="170" width="96" height="16" rx="8" fill="#22D3EE" fill-opacity="0.20">
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="0.0s" repeatCount="indefinite"/>
   </rect>
-  <text x="132" y="182" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
-  <text x="198" y="182" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 jnMetaCode/agency-agents-zh</text>
-  <text x="1104" y="182" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-06</text>
+  <text x="132" y="182" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">派生</text>
+  <text x="198" y="182" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">派生了 VoltAgent/awesome-design-md</text>
+  <text x="1104" y="182" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-07</text>
   <rect x="72" y="202" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
     <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="0.8s" repeatCount="indefinite"/>
   </rect>
@@ -62,26 +62,26 @@
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="0.4s" repeatCount="indefinite"/>
   </rect>
   <text x="132" y="220" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
-  <text x="198" y="220" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 HKUDS/OpenSpace</text>
-  <text x="1104" y="220" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-06</text>
+  <text x="198" y="220" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 VoltAgent/awesome-design-md</text>
+  <text x="1104" y="220" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-07</text>
   <rect x="72" y="240" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
     <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="1.6s" repeatCount="indefinite"/>
   </rect>
   <rect x="84" y="246" width="96" height="16" rx="8" fill="#F472B6" fill-opacity="0.20">
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="0.8s" repeatCount="indefinite"/>
   </rect>
-  <text x="132" y="258" text-anchor="middle" fill="#F9A8D4" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">推送</text>
-  <text x="198" y="258" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">向 Guli-Joy/Wurst7-Chinese 推送了代码更新</text>
-  <text x="1104" y="258" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-05</text>
+  <text x="132" y="258" text-anchor="middle" fill="#F9A8D4" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
+  <text x="198" y="258" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 jnMetaCode/agency-agents-zh</text>
+  <text x="1104" y="258" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-06</text>
   <rect x="72" y="278" width="1056" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05">
     <animate attributeName="fill-opacity" values="0.05;0.08;0.05" dur="8s" begin="2.4s" repeatCount="indefinite"/>
   </rect>
   <rect x="84" y="284" width="96" height="16" rx="8" fill="#38BDF8" fill-opacity="0.20">
     <animate attributeName="fill-opacity" values="0.18;0.30;0.18" dur="6.5s" begin="1.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="132" y="296" text-anchor="middle" fill="#BAE6FD" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">推送</text>
-  <text x="198" y="296" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">向 Guli-Joy/Wurst7-Chinese 推送了代码更新</text>
-  <text x="1104" y="296" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-05</text>
+  <text x="132" y="296" text-anchor="middle" fill="#BAE6FD" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">标星</text>
+  <text x="198" y="296" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">标星了 HKUDS/OpenSpace</text>
+  <text x="1104" y="296" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-04-06</text>
 
   <text x="60" y="356" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">通过 GitHub Actions 从官方公开事件接口自动更新。</text>
 </svg>
