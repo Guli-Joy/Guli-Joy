@@ -54,7 +54,7 @@
   </rect>
   <text x="132" y="182" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2">空闲</text>
   <text x="198" y="182" fill="#E5E7EB" font-size="14" font-family="Inter, Segoe UI, Arial, sans-serif">当前没有可显示的最近公开 GitHub 动态。</text>
-  <text x="1104" y="182" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-08-31</text>
+  <text x="1104" y="182" text-anchor="end" fill="#94A3B8" font-size="12" font-family="Inter, Segoe UI, Arial, sans-serif">2026-09-01</text>
 
   <text x="60" y="242" fill="#94A3B8" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif">通过 GitHub Actions 从官方公开事件接口自动更新。</text>
 </svg>
